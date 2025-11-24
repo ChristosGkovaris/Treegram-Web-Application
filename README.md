@@ -10,15 +10,12 @@ the **MYE042 – Τεχνολογίες Διαδικτύου** course at the **U
 ## TABLE OF CONTENTS
 1. [Overview](#overview)
 2. [Features](#features)
-3. [Project Structure](#project-structure)
-4. [Input Data](#input-data)
-5. [Algorithms Implemented](#algorithms-implemented)
-6. [Installation](#installation)
-7. [Usage](#usage)
-8. [Output Files](#output-files)
-9. [Testing](#testing)
-10. [License](#license)
-11. [Contact](#contact)
+3. [Input Data](#input-data)
+4. [Algorithms Implemented](#algorithms-implemented)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [License](#license)
+8. [Contact](#contact)
 
 ---
 
