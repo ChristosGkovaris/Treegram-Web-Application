@@ -1,9 +1,6 @@
 # TREEGRAM APP
 
-This project implements a **photo-sharing social media application** using **Ruby on Rails**,  
-with support for **user accounts, photo uploads, comments, following system, and dynamic features**  
-such as **slide-show viewing** and **AJAX-powered pop-up comments**. It was developed as part of
-the **MYE042 – Τεχνολογίες Διαδικτύου** course at the **University of Ioannina**.
+This project implements a **photo-sharing social media application** using **Ruby on Rails**, with support for **user accounts, photo uploads, comments, following system, and dynamic features** such as **slide-show viewing** and **AJAX-powered pop-up comments**. It was developed as part of the **MYE042 – Τεχνολογίες Διαδικτύου** course at the **University of Ioannina**.
 
 ---
 
@@ -54,40 +51,6 @@ These features provide a **modern, interactive user experience** while maintaini
 
 ---
 
-## PROJECT STRUCTURE
-
-```
-treegram-app/
-│── README.md
-│
-├── docs/
-│   ├── photo sharing.pdf           # Assignment 1 – Photo Sharing
-│   └── slide show.pdf              # Assignment 2 – Slide Show & Pop-up
-│
-├── src/                            # Optional folder for additional scripts or helpers
-│
-├── app/
-│   ├── controllers/                # Rails controllers
-│   ├── models/                     # User, Photo, Comment, Follow models
-│   ├── views/                      # HAML/ERB templates
-│   └── assets/                     # Images, JavaScript, and CSS
-│       ├── images/
-│       ├── javascripts/
-│       └── stylesheets/
-│
-├── bin/                            # Rails executables
-├── config/                         # Configuration files for the Rails app
-├── db/                             # Database migrations and schema
-├── public/                         # Public assets
-├── spec/                           # Tests (not implemented)
-│
-├── Gemfile
-├── Gemfile.lock
-├── Rakefile
-├── config.ru
-└── README.md                       # This file
-```
-
 ---
 
 ## INPUT DATA
@@ -119,8 +82,8 @@ treegram-app/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/ChristosGkovaris/Treegram-App.git
-cd Treegram-App
+git clone https://github.com/ChristosGkovaris/Treegram-Web-Application.git
+cd Treegram-Web-Application
 ```
 
 2. **Install Ruby (>= 2.6.6) and Rails (>= 6)**  
@@ -151,24 +114,6 @@ http://localhost:3000
 3. **Upload photos**, **follow users**, **add comments**  
 4. Hover over a photo to **start the slideshow**  
 5. Click a photo to **view and add comments via pop-up**
-
----
-
-## OUTPUT FILES
-
-- **Uploaded Photos:** Stored in `app/assets/images`  
-- **Database:** SQLite3 local development database  
-- **Optional Logs:** Rails logs in `log/development.log`
-
----
-
-## TESTING
-
-- Verify user registration, login, and logout  
-- Test uploading and deleting photos  
-- Ensure comment permissions work as expected  
-- Hover over a user’s photo to trigger the slideshow  
-- Click a photo to open the AJAX pop-up and add comments dynamically
 
 ---
 
