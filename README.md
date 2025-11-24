@@ -1,10 +1,3 @@
-<div align="center">
-  <img src="https://img.shields.io/github/last-commit/ChristosGkovaris/Treegram-App?color=91c4b3&style=flat&label=Last%20Commit" />
-</div>
-
-
-
-
 # TREEGRAM APP
 
 This project implements a **photo-sharing social media application** using **Ruby on Rails**,  
